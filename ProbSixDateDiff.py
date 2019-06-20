@@ -10,3 +10,5 @@ day2=int(input("enter day for date2"))
 
 d3=datetime.datetime(year2,month2,day2)-datetime.datetime(year1,month1,day1)
 print(d3)
+
+
