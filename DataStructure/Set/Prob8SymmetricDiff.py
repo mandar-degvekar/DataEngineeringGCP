@@ -1,0 +1,5 @@
+s=set(['abc','xyz','ss','bb','ss','dd'])
+print('set1:',s)
+m=set(['coco','xyz','ss','bb','ss','naka'])
+print('set2',m)
+print(s.symmetric_difference(m))
