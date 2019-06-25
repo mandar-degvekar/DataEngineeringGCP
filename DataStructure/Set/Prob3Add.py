@@ -1,0 +1,6 @@
+s=set(['abc','xyz','ss','bb','ss','dd'])
+print('existing set')
+print(s)
+s.add('coco')
+print('after add')
+print(s)
