@@ -1,0 +1,7 @@
+s=0 #number of aces in deck of cards
+tries=0 #numnber of cards in a deck i.e 52
+for prob in range(1,53):
+    if prob < 5:
+        s+=1
+    tries+=1
+print (float(s)/tries)
