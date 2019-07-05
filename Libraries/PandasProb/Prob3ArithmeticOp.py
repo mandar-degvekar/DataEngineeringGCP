@@ -1,0 +1,11 @@
+import pandas as pd
+ds = pd.Series([2, 4, 6, 8, 10])
+dt=pd.Series([1, 3, 5, 7, 9])
+print('sub \n')
+print(ds-dt )
+print('add \n')
+print(ds+dt )
+print('div \n')
+print(ds/dt)
+print('mul \n')
+print(ds*dt)
